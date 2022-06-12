@@ -1,8 +1,8 @@
-#include <PMsensor.h>
+#include <PMsensor.h>    //미세먼지센서 헤더파일
 #include <Wire.h> 
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h>     //lcd 헤더파일
 
-LiquidCrystal_I2C lcd(0x3F,16,2);
+LiquidCrystal_I2C lcd(0x3F,16,2);     //lcd의 주소와 규격
 
 PMsensor PM;
  int redPin = 3;      int greenPin = 5;       int bluePin = 6;
@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(redPin, OUTPUT);   pinMode(greenPin, OUTPUT);  pinMode(bluePin, OUTPUT);
   /////(infrared LED pin, sensor pin)  /////
-  PM.init(2, A0);  //2는 적외선 핀, a0는 센서핀
+  PM.init(2, A0);     //2는 적외선 핀, a0는 센서핀
 
 
 }
@@ -52,7 +52,7 @@ void loop() {
   delay(100);
 }
 
-  void setColor(int red, int green, int blue)
+  void setColor(int red, int green, int blue)   //일일이 사용하지 않고 간단하게 색을 사용할 수 있도록 하는 명령어
      {
        analogWrite(redPin, red);
        analogWrite(greenPin, green);

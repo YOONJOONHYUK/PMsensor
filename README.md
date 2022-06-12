@@ -13,17 +13,23 @@ ___
 
 ![화면 캡처 2022-06-13 042337](https://user-images.githubusercontent.com/102521625/173249901-bf73c74f-54b1-48b7-816b-9e3ee238cfc1.jpg)
 
+(PMsensor만 사용)
+
 
 
 ### 2. PMsensor_RGB 코드 및 회로도
 
 ![화면 캡처 2022-06-13 042610](https://user-images.githubusercontent.com/102521625/173249984-4e09acde-c57f-4f12-be5a-60b4940274d4.jpg)
 
+(PMsensor와 RGB를 결합)
+
 
 
 ### 3. PMsensor_RGB_lcd 코드 및 회로도
 
 ![화면 캡처 2022-06-13 043107](https://user-images.githubusercontent.com/102521625/173250121-6e250474-a925-47b5-a7c6-2cc0a6d87986.jpg)
+
+(PMsensor와 RGB, lcd를 결합)
 
 
 
